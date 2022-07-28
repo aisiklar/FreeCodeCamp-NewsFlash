@@ -26,6 +26,12 @@
 }
 /* Base styles */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Theme color change */
 
 /* Reusable classes */
