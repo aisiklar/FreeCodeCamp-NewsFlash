@@ -32,6 +32,52 @@
     box-sizing: border-box;
 }
 
+html {
+/*     font-size: 10px; */
+/* 62.5% of 16px browser font size is 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-sm);
+    color: var(--light-color-alt);
+    background-color: var(--primary-background-color);
+    letter-spacing: 1px;
+    transition: background-color 0.25s color 0.25s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+input, 
+button {
+    font: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+i {
+    font-size: var(--font-size-md);
+}
+]
+
+
+
+
 /* Theme color change */
 
 /* Reusable classes */
